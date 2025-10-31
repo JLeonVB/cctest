@@ -4,9 +4,9 @@ while true do
  print("Ingresa tu contrasena")
  if pass == read() then
      print("Door opened")
-     redstone.setOutput("on", bottom)
+     redstone.setOutput("true", bottom)
      sleep(2)
-     redstone.setOutput("off", bottom)
+     redstone.setOutput("false", bottom)
  end
  sleep(2)
 end
