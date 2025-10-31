@@ -1,5 +1,7 @@
+print("Crea tu contrasena")
 pass = read()
 while true do
+ print("Ingresa tu contrasena")
  if pass == read() then
      print("Door opened")
      redstone.setOutput("on", bottom)
