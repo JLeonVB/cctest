@@ -1,3 +1,4 @@
+print("Programa contrasena con salida de redstone por abajo")
 print("Crea tu contrasena")
 pass = read()
 while true do
